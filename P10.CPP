@@ -23,6 +23,24 @@ void printArray(int length)
 void permute(int k,int length)
 {
   if(k==0)
+Mike Swift , CEO & Co-Founder of MLH (Major League Hacking) with us, who'll be addressing  the audience on the morning of 19th!  🤩
+He would be speaking on "Stories about hackers and other superheroes " cool isn't it ? 😌
+
+This would be followed by a keynote from Akrodyuti Saha (aka Arko 😎) , Cloud Advocate Program Manager, Microsoft U.S.A on Modern Developer Psychology: Read, Write, Code
+
+Hold on! as  We also have various interesting hands-on workshops for you ..
+
+Starting with Microsoft ( Topic to be updated soon 😉 )
+
+followed by HackerOne workshop by Sandeep Singh (aka Geekboy ;) on Bug Bounty
+and  
+a workshop from ZIET by Amandeep Singh on Next.JS framework
+
+
+You name it, we have it!
+
+So hurry up as we are officially accepting registrations only till 15th October!
+
     printArray(length);
   else
    {
