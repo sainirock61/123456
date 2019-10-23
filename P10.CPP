@@ -13,6 +13,154 @@ void swapNo(int x,int y)
   arr[y]=temp;
 }
 
+#include<iostream.h>
+
+#include<conio.h>
+
+
+
+int arr[10]={0};
+
+void swapNo(int x,int y);
+
+void printArray(int length);
+
+void permute(int k,int length);
+
+
+
+void swapNo(int x,int y)
+
+{
+
+  int temp=arr[x];
+
+  arr[x]=arr[y];
+
+  arr[y]=temp;
+
+}
+
+
+
+void printArray(int length)
+
+{
+
+  for(int i=0;i<length;i++)
+
+  cout<<arr[i]<<" ";
+#include<iostream.h>
+
+#include<conio.h>
+
+
+
+int arr[10]={0};
+
+void swapNo(int x,int y);
+
+void printArray(int length);
+
+void permute(int k,int length);
+
+
+
+void swapNo(int x,int y)
+
+{
+
+  int temp=arr[x];
+
+  arr[x]=arr[y];
+
+  arr[y]=temp;
+
+}
+
+
+
+void printArray(int length)
+
+{
+
+  for(int i=0;i<length;i++)
+
+  cout<<arr[i]<<" ";
+#include<iostream.h>
+
+#include<conio.h>
+
+
+
+int arr[10]={0};
+
+void swapNo(int x,int y);
+
+void printArray(int length);
+
+void permute(int k,int length);
+
+
+
+void swapNo(int x,int y)
+
+{
+
+  int temp=arr[x];
+
+  arr[x]=arr[y];
+
+  arr[y]=temp;
+
+}
+
+
+
+void printArray(int length)
+
+{
+
+  for(int i=0;i<length;i++)
+
+  cout<<arr[i]<<" ";
+#include<iostream.h>
+
+#include<conio.h>
+
+
+
+int arr[10]={0};
+
+void swapNo(int x,int y);
+
+void printArray(int length);
+
+void permute(int k,int length);
+
+
+
+void swapNo(int x,int y)
+
+{
+
+  int temp=arr[x];
+
+  arr[x]=arr[y];
+
+  arr[y]=temp;
+
+}
+
+
+
+void printArray(int length)
+
+{
+
+  for(int i=0;i<length;i++)
+
+  cout<<arr[i]<<" ";
 void printArray(int length)
 {
   for(int i=0;i<length;i++)
