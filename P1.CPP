@@ -55,3 +55,23 @@ int main()
   getch();
   return 0;
 }
+int main()
+{
+  clrscr();
+  int n,i;
+  cout<<"Enter the number of elements :\n";
+  cin>>n;
+  int ar[100];
+  cout<<"Enter the elements : \n";
+  for(i=0;i<n;++i)
+  {
+   cin>>ar[i];
+  }
+  cout<<"\nEnter the element to be searched : \n";
+  int ele;
+  cin>>ele;
+  isMember(ar,n,ele);
+  powerset(ar,n);
+  getch();
+  return 0;
+}
