@@ -3,6 +3,13 @@
 
 void main()
 { clrscr();
+ 
+	 cout<<"HRA:";
+	 cin>>s[i].hra;
+	 cout<<"DA:";
+	 cin>>s[i].da;
+	 cout<<"Extra:";
+	 cin>>s[i].ext;
 
   cout<<"This program prints the number of leaves in a m-ary tree with i internal vertices"<<endl;
   int n,i,m,leaves;
