@@ -1,7 +1,7 @@
 #include<iostream.h>
 #include<conio.h>
 
-int numberOfLeaves(m,i){ 	//function instead of normal line of code
+int number_of_leaves(m,i){ 	//function instead of normal line of code
 	
 	int n = (m*i + 1);
 	int leaves = ((m-1)*n + 1)/m;
@@ -18,7 +18,7 @@ void main()
   cout<<"Enter i:"<<endl;
   cin>>i;
   cout<<"Total number of vertices: "<<(m*i + 1)<<endl;
-  leaves = numberOfLeaves(m,i);
+  leaves = number_of_leaves(m,i);
   cout<<"Number of leaves: "<<leaves<<endl;
 
   getch();
