@@ -1,7 +1,7 @@
 #include<iostream.h>
 #include<conio.h>
 
-int numberOfLeaves(m,i){
+int numberOfLeaves(m,i){ 	//function instead of normal line of code
 	
 	int n = (m*i + 1);
 	int leaves = ((m-1)*n + 1)/m;
